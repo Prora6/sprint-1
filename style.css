@@ -1,35 +1,60 @@
-.section-baner{
-
-    color: #FFFFFF;
+body {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
 }
 
+* {
+    box-sizing: border-box;
+}
 
-.header{
-    font-size: 25px;
+.welcome-section {
+   background-image: url("/images/@\ Gradient.png");
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+.header {
     display: flex;
-}
-
-
-.list{
-list-style: none;
-font-weight: 400px;
-padding: 25px;
-}
-
-.list li {
-    display: inline;
-}
-
-.item .subsribe{
-    background: #FFFFFF;
-    border-radius: 35px;
-}
-
-.try-for-free{
-    background: #FFFFFF;
-    border-radius: 35px;
-}
-.form-subcribe {
-    display: flex;
+    justify-content: center;
     align-items: center;
+    padding-top: 38px;
+}
+
+.header-logo-container {
+    padding: 10px 30px;
+    margin-right: 12px;
+}
+
+.header-list {
+    margin-right: 40px;
+    display: flex;
+    list-style: none;
+    padding-left: 0px;
+}
+
+.header-list-item {
+    padding: 10px;
+    margin-right: 20px;
+    color: #fff;
+}
+
+.header-form-input {
+    background-color: #EFEFEF;
+    border-radius: 39px;
+    border: 1px solid #E8E8E8;
+    padding: 20px 40px;
+    margin-right: 12px;
+    
+}
+
+.header-form-button {
+    padding: 20px 40px;
+    background-color: #FFFFFF;
+    border-radius: 35px;
+    border: none;
+    cursor: pointer;
+    color: #2091F9;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
 }
