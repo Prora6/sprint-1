@@ -8,7 +8,7 @@ body {
 }
 
 .welcome-section {
-   background-image: url("/images/@\ Gradient.png");
+   background-image: url("./images/@\ Gradient.png");
    background-size: cover;
    background-repeat: no-repeat;
 }
