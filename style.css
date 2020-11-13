@@ -105,6 +105,7 @@ p, h1, h2 {
     font-size: 16px;
     line-height: 20px;
     font-weight: 500;
+    text-align: center;
 }
 .center-section-button {
     padding: 16px 58px;
@@ -122,4 +123,47 @@ p, h1, h2 {
 .welcome-section-img-container {
     display: flex;
     justify-content: center;
+}
+
+.features-section {
+    background-color: #FFFFFF;
+    padding-top: 96px;
+}
+
+.top-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 70px;
+}
+
+.top-section-text {
+    margin-bottom: 8px;
+    font-size: 22px;
+    line-height: 33px;
+    font-weight: 700;
+    color: #252B42;
+}
+
+.top-section-title {
+    padding: 10px;
+    margin-bottom: 8px;
+    font-size: 46px;
+    line-height: 57px;
+    font-weight: 400;
+    color: #252B42;
+}
+
+.top-section-subtitle {
+    padding: 10px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #374754;
+    text-align: center;
+}
+
+.features-section-container {
+    display: flex;
 }
