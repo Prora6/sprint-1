@@ -166,4 +166,63 @@ p, h1, h2 {
 
 .features-section-container {
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+}
+
+.navigation {
+    padding-top: 58px;
+}
+
+.screen-mask {
+    padding-bottom: 58px;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.right-side-up {
+    margin-bottom: 75px;
+}
+
+.right-side-up-description {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.right-side-down-description {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.right-side-description-subtitle {
+    padding: 10px;
+    font-size: 22px;
+    line-height: 33px;
+    font-weight: 700;
+    color: #252B42;
+}
+
+.right-side-description-text {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    color: #374754;
 }
