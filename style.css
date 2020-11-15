@@ -128,6 +128,7 @@ p, h1, h2 {
 .features-section {
     background-color: #FFFFFF;
     padding-top: 96px;
+    padding-bottom: 154px;
 }
 
 .top-section {
@@ -142,7 +143,7 @@ p, h1, h2 {
     margin-bottom: 8px;
     font-size: 22px;
     line-height: 33px;
-    font-weight: 700;
+    font-weight: 600;
     color: #252B42;
 }
 
@@ -159,7 +160,7 @@ p, h1, h2 {
     padding: 10px;
     font-size: 16px;
     line-height: 20px;
-    font-weight: 700;
+    font-weight: 600;
     color: #374754;
     text-align: center;
 }
@@ -225,4 +226,78 @@ p, h1, h2 {
     line-height: 27px;
     font-weight: 400;
     color: #374754;
+}
+
+.prototyping {
+    background: linear-gradient(39.97deg, #00F3B9 0.79%, #2187FF 79.29%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.prototyping-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    margin-bottom: 40px;
+
+}
+
+.prototyping-section-text {
+    font-size: 22px;
+    line-height: 33px;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+}
+
+.prototyping-section-title {
+    font-size: 46px;
+    line-height: 57px;
+    color: #FFFFFF;
+    font-weight: 400;
+    padding: 10px;
+    margin-bottom: 8px;
+}
+
+.prototyping-section-subtitle {
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    font-weight: 500;
+}
+
+.prototyping-button-buy {
+    padding: 18px 31px;
+    background: #FFFFFF;
+    border-radius: 35px;
+    color: #2091F9;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.prototyping-button-try {
+    padding: 16px 45px;
+    border: 1px solid #FFFFFF;
+    border-radius: 35px;
+    margin: 2px 0px 2px 16px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+    background-image: none; 
+    background: transparent;
+    background-color: transparent;
+    cursor: pointer;
 }
