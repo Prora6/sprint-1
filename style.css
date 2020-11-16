@@ -178,6 +178,11 @@ p, h1, h2 {
     margin-right: 100px;
 }
 
+.shadow {
+    background: rgba(0, 0, 0, 0.0001);
+    box-shadow: 0px 9.85769px 19.7154px rgba(0, 0, 0, 0.16), 0px 9.85769px 131.436px rgba(0, 0, 0, 0.23);
+}
+
 .navigation {
     padding-top: 58px;
 }
@@ -300,4 +305,15 @@ p, h1, h2 {
     background: transparent;
     background-color: transparent;
     cursor: pointer;
+}
+
+.news {
+    background: #FFFFFF;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.news-content {
+    display: flex;
+    flex-direction: row;
 }
