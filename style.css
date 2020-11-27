@@ -1537,4 +1537,49 @@ flex-direction: column;
         margin: 0px;
         margin-right: 20px;
     }
+
+    .testimonials-button {
+        padding: 0px;
+        width: 280px;
+        height: 65px;
+        font-size: 22px;
+        line-height: 33px;
+    }
+
+    .contact {
+        padding: 160px 20px 149px 20px;
+    }
+
+    .end {
+        padding-top: 83px;
+        margin-bottom: 97px;
+    }
+
+    .footer-left {
+        padding: 0px;
+        text-align: center;
+    }
+
+    .footer-left-one {
+        margin-right: 0px;
+        margin-bottom: 83px;
+        align-items: center;
+    }
+
+    .footer-left-two {
+        margin-right: 0px;
+        margin-bottom: 83px;
+        align-items: center;
+    }
+    
+    .footer-left-tree {
+        margin-right: 0px;
+        margin-bottom: 83px;
+        align-items: center;
+    }
+
+    .footer-left-one-list {
+        align-items: center;
+    }
+
 }
