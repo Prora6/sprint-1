@@ -2,7 +2,7 @@
   "name": "sprint-1",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,7 +16,7 @@
     "url": "https://github.com/Prora6/sprint-1/issues"
   },
   "homepage": "https://github.com/Prora6/sprint-1#readme",
-  "devDependencies": {
+  "dependencies": {
     "browser-sync": "^2.26.13",
     "gulp": "^4.0.2",
     "gulp-sass": "^4.1.0"
