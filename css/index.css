@@ -495,7 +495,7 @@ p, h1, h2, h3 {
 .testimonials-list-up-item:last-child {
   margin-right: 0px; }
 
-.testimonials-list-up-item-img {
+.testimonials-img {
   margin-bottom: 40px; }
 
 .testimonials-list-up-item-text {
@@ -513,10 +513,10 @@ p, h1, h2, h3 {
   align-items: center;
   margin-bottom: 30px; }
 
-.testimonials-list-up-item-stars-one {
+.star {
   margin-right: 4px; }
 
-.testimonials-list-up-item-stars-one:last-child {
+.star:last-child {
   margin-right: 0px; }
 
 .testimonials-list-up-item-regina {
